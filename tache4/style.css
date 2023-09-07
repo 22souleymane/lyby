@@ -1,0 +1,43 @@
+.petal{
+    text-align: center;
+    padding-top: 12px;
+}
+.rows{
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 300px 300px 1fr;
+}
+
+.col input{
+    width: 550px;
+}
+.col textarea{
+    width: 550px;
+
+}
+.col img{
+    height: 230px;
+    width: 450px;
+    padding-top: 20px;
+}
+.button{
+    height: 35px;
+    width: 102px;
+}
+
+@media all and (max-width: 425px) {
+    .rows{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    }
+    .content-box-lg{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    }
+ }
+ @media all and (max-width: 768px) {
+     .main{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     }
+  }

@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(150, 128, 99);
+   
+}
+
+.col-12{
+    size: 5px;
+    width: 60px;
+    height: 50px;
+    padding: 6px;
+    margin: 2px;
+    flex: content;
+    flex-direction: column;
+}
+p{
+    font-size: 15px;
+}
+span{
+    margin-top: 5%;
+    font-size: 12px;
+    margin-right: 12%;
+}
+    
+.petel{
+
+}
+.container-fluid {
+    display:inline-flex;
+    display: flex;
+    justify-content: center;
+}
+h6{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+.btn-group .btn-lg{
+    background-color: orangered;
+    text-align: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: coral;
+    width: 300px;
+    height: 100px;
+    display: flex;
+}
+
